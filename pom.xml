@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.orctom.mojo</groupId>
+  <groupId>com.jaimuepe.mojo</groupId>
   <artifactId>was-maven-plugin</artifactId>
   <packaging>maven-plugin</packaging>
   <version>1.1.3.5-SNAPSHOT</version>
 
   <name>was-maven-plugin</name>
   <description>Maven plugin to deploy war/ear to WebSphere</description>
-  <url>https://github.com/orctom/was-maven-plugin/</url>
+  <url>https://github.com/jaimuepe/was-maven-plugin/</url>
 
   <issueManagement>
-    <url>https://github.com/orctom/was-maven-plugin/issues</url>
+    <url>https://github.com/jaimuepe/was-maven-plugin/issues</url>
     <system>GitHub</system>
   </issueManagement>
 
@@ -23,16 +23,16 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/orctom/was-maven-plugin/</url>
-    <connection>scm:git:git@github.com:orctom/was-maven-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:orctom/was-maven-plugin.git</developerConnection>
+    <url>https://github.com/jaimuepe/was-maven-plugin/</url>
+    <connection>scm:git:git@github.com:jaimuepe/was-maven-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jaimuepe/was-maven-plugin.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
   <developers>
     <developer>
-      <name>Hao Chen</name>
-      <email>orctom@gmail.com</email>
+      <name>Jaime Muela</name>
+      <email>jaimuepe@gmail.com</email>
     </developer>
   </developers>
 
@@ -221,7 +221,7 @@
       <version>1.8.3</version>
     </dependency>
     <dependency>
-      <groupId>com.orctom.was</groupId>
+      <groupId>com.jaimuepe.was</groupId>
       <artifactId>was-util</artifactId>
       <version>1.1.3.5</version>
     </dependency>
